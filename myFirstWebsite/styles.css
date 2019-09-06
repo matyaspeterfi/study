@@ -36,19 +36,26 @@ body {
 
 a{
 
-    color: #ff0099
+    color: #ff0099;
 }
 
 .subtitle{
 
-    color: #ff0099
+    color: #ff0099;
+    font-size: 150%;
+}
+
+#name{
+    
+    margin: 100px 0 45px;
+    font-size: 320%;
 }
 
 p{
 
 width: 100%;
 margin: 0 0 30px 0;
-
+line-height: 140%
 
 }
 
@@ -56,6 +63,7 @@ margin: 0 0 30px 0;
     
     width: max-content;
     margin: 0 auto;
+    padding: 40px 0;
 }
 
 .def-title{
@@ -64,11 +72,13 @@ margin: 0 0 30px 0;
     margin: 0 auto;
     padding: 30px;
     font-weight: bold;
+    
 
 }
 
 .definitions{
-    width: 100%
+    width: 100%;
+    line-height: 150%;
 
 }
 
